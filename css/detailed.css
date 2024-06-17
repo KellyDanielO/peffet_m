@@ -1,0 +1,48 @@
+.detailed_page {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    /* pointer-events: none; */
+}
+
+body {
+    overflow: hidden;
+}
+
+.detailed_page>* {
+    width: 98vw;
+    margin: 0 auto;
+}
+
+.detailed_page .box-s {
+    box-shadow: none;
+}
+
+.detailed_page .post_content {
+    height: auto;
+    max-height: 60vh;
+}
+
+.detailed_page .peffet_portrait {
+    height: 99vh;
+}
+
+article .content_bx_qoute {
+    padding-top: 30%;
+}
+
+.post_content.colorful {
+    min-height: 30vh;
+}
+
+.pc_comp {
+    display: none !important;
+}
+
+.bottom_nav {
+    display: none !important;
+}

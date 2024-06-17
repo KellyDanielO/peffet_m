@@ -1,0 +1,261 @@
+.search_main_holder {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding-bottom: 10px;
+    z-index: 10;
+}
+
+.search_area_xchat {
+    width: 90%;
+    padding: 5px 10px 5px 10px;
+    color: inherit;
+    height: 50px;
+    margin: 0 auto;
+    border-radius: 25px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: inherit;
+}
+
+.bg-light .search_main_holder {
+    background: #fff !important;
+    color: #000;
+}
+
+.bg-dark .search_main_holder {
+    background: hsl(222deg 16% 12%) !important;
+    color: #fff;
+}
+
+.bg-dark .search_area_xchat {
+    box-shadow: inset 6px 6px 12px #070707, -6px -6px 12px #1d1d1d;
+}
+
+.search_area_xchat input {
+    background: inherit;
+    width: 85%;
+}
+
+.search_area_xchat input::placeholder {
+    font-style: italic;
+    color: inherit;
+}
+
+.status_contents {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+
+.p_h_t {
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 5px;
+    width: auto;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.tags {
+    padding: 5px;
+    background: linear-gradient(145deg, #101010, #131313);
+    box-shadow: 6px 6px 12px #070707, -6px -6px 12px #1d1d1d;
+    border-radius: 13px;
+    margin: 2px;
+    word-break: normal;
+    font-size: smaller;
+}
+
+.suggested {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px;
+    overflow: auto;
+    height: unset;
+}
+
+.sg_user {
+    min-width: 210px;
+    max-width: 210px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 228px;
+    padding: 10px;
+    background-color: hsl(231deg 48% 48% / 15%);
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+.profile_img {
+    /*position: absolute;
+	top: -46px;*/
+    z-index: 1;
+    width: 80px;
+    height: 80px;
+    border-radius: 15px;
+}
+
+.profile_img img {
+    border: 2px solid limegreen;
+    border-radius: 50%;
+}
+
+.other {
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.f_and_p {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.f_and_p div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tabs_msg {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.tab_contents {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    overflow: hidden;
+}
+
+#buzz_search {
+    min-width: 95vw;
+    max-width: 95vw;
+    margin-top: 10px;
+    margin-right: 10%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 100vh;
+}
+
+#accounts {
+    min-width: 95vw;
+    max-width: 95vw;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    /*margin:  0 13% 0 0%;*/
+    margin-left: 10%;
+}
+
+#tags {
+    min-width: 95vw;
+    max-width: 95vw;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    /*margin:  0 13% 0 0%;*/
+    margin-left: 10%;
+}
+
+.buzz_sec_views {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    width: 100vw;
+    width: 100%;
+}
+
+.each_boxs {
+    position: relative;
+    width: 200px;
+    height: 40vh;
+}
+
+.each_boxs img,
+.each_boxs video {
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.each_boxs span {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    z-index: 1;
+}
+
+.each_boxs em {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    z-index: 1;
+}
+
+.users_each {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    height: 90px;
+    margin-bottom: 10px;
+}
+
+.img_area {
+    flex: 20%;
+    max-width: 20%;
+}
+
+.img_area img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.username_and_bio {
+    flex: 50%;
+    max-width: 50%;
+    overflow: hidden;
+}
+
+.username_and_bio p {
+    height: 30px;
+    overflow: hidden;
+}
+
+.follow_or_view {
+    flex: 20%;
+    max-width: 20%;
+}
+
+.list_of_serach_query {
+    height: 0;
+    overflow: hidden;
+    transition: all 1s ease;
+}
+
+.list_of_serach_query.active {
+    padding: 10px;
+    height: unset;
+}

@@ -1,0 +1,9 @@
+php_value upload_max_filesize 500M
+php_value post_max_size 600M
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+RewriteRule ^@([a-zA-Z0-9-_]+) account.php?username=$1
+
+php_value session.gc_maxlifetime 604800

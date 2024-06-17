@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Oleo+Script+Swash+Caps&family=Poppins:wght@200&display=swap');
+.share_memories {
+    width: 90%;
+    height: 55px;
+    background: transparent;
+    border-radius: 25px;
+    padding: 5px 15px 5px 15px;
+    border: 1px solid var(--initial-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.share_memories textarea {
+    width: 85%;
+    padding: 8.5px;
+    background: transparent;
+    resize: none;
+    height: 45px;
+}
+
+.share_memories input::placeholder {
+    font-style: italic;
+    color: grey;
+}
+
+.share_memories .post_btn {
+    padding: 5px 10px 5px 10px;
+    color: var(--initial-color);
+    font-size: x-large;
+}
+
+.suggested {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px;
+    overflow: auto;
+    height: unset;
+}
+
+.sg_user {
+    min-width: 210px;
+    max-width: 210px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 228px;
+    padding: 10px;
+    background-color: hsl(231deg 48% 48% / 15%);
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+.profile_img {
+    z-index: 1;
+    width: 80px;
+    height: 80px;
+    border-radius: 15px;
+}
+
+.profile_img img {
+    border: 2px solid limegreen;
+    border-radius: 50%;
+}
+
+.other {
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.f_and_p {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.f_and_p div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.find_people {
+    width: 100vw;
+    height: 50vh;
+    object-fit: contain;
+    margin: 0 auto;
+}
+
+.find_people_box {
+    width: 100vw;
+    height: 70vh;
+    position: relative;
+}
+
+.find_people_box .box_bx {
+    padding: 5px 10px;
+    background: #fff;
+    color: #000;
+    font-family: Arial;
+    font-weight: 500;
+    font-size: 0.9em;
+    border-radius: 10px;
+}
+
+.first_bx {
+    position: absolute;
+    top: 8%;
+    right: 5%;
+    width: 20vh;
+}
+
+.second_bx {
+    position: absolute;
+    top: 41%;
+    left: 5%;
+    width: 20vh;
+}
+
+.third_bx {
+    position: absolute;
+    bottom: 20%;
+    right: 8%;
+    width: 20vh;
+}
+
+.find_people_box a {
+    width: 28vw;
+    margin: 0 auto;
+    border-radius: 30px;
+    padding: 1em;
+    background: royalblue;
+    position: absolute;
+    bottom: 3%;
+    left: 50%;
+    text-align: center;
+    transform: translateX(-50%);
+    font-weight: 600;
+    font-family: sans-serif;
+}

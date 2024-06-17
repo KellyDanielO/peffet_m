@@ -1,0 +1,631 @@
+:root {
+    --main_white_bg: hsl(330deg 7% 94%);
+    --main_black_color: #000;
+    --main_white_color: #fff;
+    --initial-shade-grey: hsl(0deg 0% 50% / 81%);
+    --initial-shade-grey-darker: hsl(0deg 0% 50% / 99%);
+    --transparent_white: hsl(0deg 0% 100% / 57%);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg-light {
+    background: var(--main_white_bg) !important;
+    color: var(--main_black_color) !important;
+}
+
+.bg-light .reply_action_box .box_main {
+    color: var(--main_black_color);
+    background: var(--main_white_bg);
+}
+
+.bg-light .pc_nav {
+    background: var(--main_white_bg);
+}
+
+.bg-light .pc_nav .search_area {
+    background: var(--initial-shade-grey);
+    color: var(--main_white_color);
+}
+
+.bg-light .pc_nav .search_area input::placeholder {
+    color: var(--main_white_color);
+}
+
+.bg-light .pc_nav .links_for_pages>* {
+    background: var(--initial-shade-grey);
+    color: var(--main_white_color);
+}
+
+.bg-light article {
+    background: var(--initial-shade-grey);
+    color: var(--main_white_color);
+}
+
+.bg-light .switch_acc .user {
+    background: var(--initial-shade-grey);
+    color: var(--main_white_color);
+}
+
+.bg-light article .holder_img {
+    border: 10px solid var(--main_white_bg);
+}
+
+.bg-light .post_act_utl .post_act_utl_con .action_box {
+    background: var(--main_white_color);
+    color: var(--main_black_color);
+}
+
+.bg-light .post_act_utl .post_act_utl_con .action_box .up_btn button {
+    background: var(--initial-shade-grey);
+    color: var(--main_white_color);
+}
+
+.bg-light .post_act_utl .post_act_utl_con .action_box .search_folls {
+    background: var(--initial-shade-grey);
+    color: var(--main_white_color);
+}
+
+.bg-light .peffet_portrait .pt {
+    background: var(--initial-shade-grey-darker);
+    color: var(--main_white_color);
+}
+
+.bg-light .type_pb2 {
+    color: var(--main_white_color);
+}
+
+.bg-light .comment_bx {
+    background: var(--main_white_bg);
+    box-shadow: 6px 6px 12px #d1cfcfa6, -6px -6px 12px #fafafa87;
+}
+
+.bg-light .comment_bx .cb_container .header {
+    box-shadow: 6px 6px 12px #d1cfcfa6, -6px -6px 12px #fafafa87;
+}
+
+.bg-light .comment_bx .cb_container .footer {
+    box-shadow: 6px 6px 12px #d1cfcfa6, -6px -6px 12px #fafafa87;
+}
+
+.bg-light .comment_bx .cb_container .footer .comment_control {
+    color: var(--main_black_color);
+}
+
+.bg-light .replies_bx {
+    background: var(--main_white_bg);
+    box-shadow: 6px 6px 12px #d1cfcfa6, -6px -6px 12px #fafafa87;
+}
+
+.bg-light .replies_bx .rep_container .header {
+    box-shadow: 6px 6px 12px #d1cfcfa6, -6px -6px 12px #fafafa87;
+}
+
+.bg-light .replies_bx .rep_container .footer {
+    box-shadow: 6px 6px 12px #d1cfcfa6, -6px -6px 12px #fafafa87;
+}
+
+.bg-light .replies_bx .rep_container .footer .comment_control {
+    color: var(--main_black_color);
+}
+
+.bg-light .users_at_list {
+    background: var(--initial-shade-grey-darker);
+}
+
+.bg-light header {
+    background: var(--main_white_bg);
+    color: var(--main_black_color);
+}
+
+.bg-light .bottom_nav {
+    background: var(--main_white_bg);
+    color: var(--main_black_color);
+}
+
+.bg-light .bx_t {
+    background: var(--main_white_bg);
+}
+
+.bg-light .create_container {
+    background: var(--main_white_bg);
+    cursor: pointer;
+}
+
+.bg-light .full_screen_utility_handler {
+    background: var(--main_white_bg);
+    color: var(--main_black_color);
+}
+
+.bg-light .utl_container {
+    background: var(--main_white_bg);
+    color: var(--main_black_color);
+}
+
+.bg-light .portrait .prev_reg_btn {
+    color: var(--main_black_color);
+}
+
+.bg-light .portrait .caption_reg_btn {
+    color: var(--main_black_color);
+}
+
+.bg-light .portrait .caption_reg_area textarea {
+    color: var(--main_black_color);
+}
+
+.bg-light .buttons label {
+    color: var(--main_white_color);
+}
+
+.bg-light [data-typing-bg="type_pb_main"] {
+    color: var(--main_white_color);
+}
+
+.bg-light .type_pb_main {
+    color: var(--main_white_color);
+}
+
+.bg-light [data-typing-bg="type_pb_main"] {
+    color: var(--main_white_color);
+}
+
+.bg-light .type_pb1 {
+    color: var(--main_white_color);
+}
+
+.bg-light [data-typing-bg="type_pb1"] {
+    color: var(--main_white_color);
+}
+
+.bg-light .type_pb2 {
+    color: var(--main_white_color);
+}
+
+.bg-light [data-typing-bg="type_pb2"] {
+    color: var(--main_white_color);
+}
+
+.bg-light .type_pb3 {
+    color: var(--main_white_color);
+}
+
+.bg-light [data-typing-bg="type_pb3"] {
+    color: var(--main_white_color);
+}
+
+.bg-light .type_pb4 {
+    color: var(--main_white_color);
+}
+
+.bg-light [data-typing-bg="type_pb4"] {
+    color: var(--main_white_color);
+}
+
+.bg-light .type_pb5 {
+    color: var(--main_white_color);
+}
+
+.bg-light [data-typing-bg="type_pb5"] {
+    color: var(--main_white_color);
+}
+
+.bg-light .type_pb6 {
+    color: var(--main_white_color);
+}
+
+.bg-light [data-typing-bg="type_pb6"] {
+    color: var(--main_white_color);
+}
+
+.bg-light .type_pb7 {
+    color: var(--main_white_color);
+}
+
+.bg-light [data-typing-bg="type_pb7"] {
+    color: var(--main_white_color);
+}
+
+.bg-light .portrait .prev_btn {
+    color: var(--main_black_color);
+}
+
+.bg-light .portrait .caption_btn {
+    color: var(--main_black_color);
+}
+
+.bg-light .portrait .caption_area textarea {
+    color: var(--main_black_color);
+}
+
+.bg-light .sticky_nav {
+    background: var(--main_white_bg);
+}
+
+.bg-light .sticky_nav .row_one .search_timer {
+    background: var(--main_white_bg);
+    box-shadow: inset 5px 5px 10px #d1cfcfa6, inset -5px -5px 10px #fafafa87;
+}
+
+.bg-light .tabs {
+    background: var(--main_white_bg);
+}
+
+.bg-light .tabs button {
+    color: var(--main_black_color);
+}
+
+.bg-light .tabs button.active {
+    color: var(--main_white_color);
+}
+
+.bg-light .xchat {
+    background: var(--initial-shade-grey);
+}
+
+.bg-light .chats_outline {
+    background: var(--main_white_bg);
+    /* color: var(--main_white_color); */
+}
+
+.bg-light .chats_outline .recent_chats {
+    background: var(--initial-shade-grey);
+    color: var(--main_white_color);
+}
+
+.bg-light .chats_outline .fav_chats {
+    background: var(--initial-shade-grey);
+    color: var(--main_white_color);
+}
+
+.bg-light .chats_outline .all_chats {
+    background: var(--initial-shade-grey);
+    color: var(--main_white_color);
+}
+
+.bg-light .see_all_cent {
+    background: var(--initial-shade-grey);
+    color: var(--main_white_color);
+}
+
+.bg-light .chats {
+    background: var(--main_white_bg);
+}
+
+.bg-light .chats .chats_header {
+    box-shadow: 6px 6px 12px #d1cfcfa6, -6px -6px 12px #fafafa87;
+}
+
+.bg-light .chats .chats_footer {
+    background: var(--main_white_color);
+    box-shadow: 6px 6px 12px #d1cfcfa6, -6px -6px 12px #fafafa87;
+}
+
+.bg-light .chats .sender_area_x textarea::placeholder {
+    color: var(--main_white_color);
+}
+
+.bg-light .chats .line_holder.reciever .main_bx_chat {
+    background: var(--initial-shade-grey-darker);
+}
+
+.bg-light .status {
+    background: var(--main_white_bg);
+}
+
+.bg-light .status .act_btn>* {
+    background: var(--initial-shade-grey);
+}
+
+.bg-light .follow_btn {
+    color: var(--main_white_color);
+}
+
+.bg-light .main {
+    background: var(--initial-shade-grey-darker);
+    color: var(--main_white_color);
+}
+
+.bg-light .main .bx {
+    background: var(--initial-shade-grey);
+    color: var(--main_white_color);
+}
+
+.bg-light .bx .right.active {
+    background: var(--initial-shade-grey-darker);
+}
+
+.bg-light .form_area_edit .sec_each input,
+.bg-light .form_area_edit .sec_each textarea {
+    background: var(--main_white_bg);
+    color: var(--main_bg);
+}
+
+.bg-light .notification_bx {
+    background: var(--main_white_bg);
+    box-shadow: 5px 5px 10px #d1cfcfa6, -5px -5px 10px #fafafa87;
+}
+
+.bg-light .msg_act_cont_bx .msg_act_bx .bx {
+    background: var(--main_white_bg);
+}
+
+.bg-light .forward_msg_cont .main_cont .bx {
+    background: var(--main_color);
+}
+
+.bg-light .forward_msg_cont .main_cont .bx .search_area {
+    background: var(--initial-shade-grey);
+    color: var(--main_color);
+}
+
+.bg-light .forward_msg_cont .main_cont .bx .search_area input::placeholder {
+    color: var(--main_color);
+}
+
+.bg-light .preview .preview_cont .bx {
+    background: var(--main_color);
+}
+
+.bg-light .notify_box_user .main_bx {
+    background: var(--main_color) !important;
+    color: var(--main_black_color);
+}
+
+.depend_button {
+    cursor: pointer;
+}
+
+.bg-light .nw_conv_bx .bx_relative {
+    background: var(--main_white_bg);
+}
+
+.bg-light .search_area input {
+    color: #fff;
+}
+
+.bg-light .search_area input::placeholder {
+    color: #fff;
+}
+
+.bg-light .side_nav_peffet .bx_side .bx {
+    background: var(--main_color);
+}
+
+.bg-light .main_cont {
+    background: var(--main_white_bg);
+    color: var(--main_black_color);
+}
+
+.bg-light form .each_field i {
+    color: var(--main_black_color);
+}
+
+.bg-light form .each_field input {
+    color: var(--main_black_color);
+}
+
+.bg-light .comment_action_box .box_main {
+    background: var(--main_white_color);
+}
+
+.bg-light .swal-modal {
+    background: var(--main_white_bg) !important;
+}
+
+.bg-light .swal-icon--success:after,
+.bg-light .swal-icon--success:before {
+    background: var(--main_white_bg) !important;
+}
+
+.bg-light .swal-icon--success__hide-corners {
+    background: var(--main_white_bg) !important;
+}
+
+.bg-light .swal-title {
+    color: var(--main_black_color) !important;
+}
+
+.bg-light .swal-text {
+    color: var(--main_black_color) !important;
+}
+
+.bg-light .swal-icon--success__ring {
+    border: 4px solid hsl(98deg 55% 69%) !important;
+}
+
+.bg-light .preview {
+    background: var(--transparent_white);
+}
+
+.bg-light .swal-button {
+    color: var(--main_black_color);
+}
+
+.bg-light .following_follower_bx .bx {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.bg-light .following_follower_bx .bx .main_bx {
+    background: var(--initial-shade-grey);
+}
+
+.bg-light .following_follower_bx .bx .main_bx .content_bx .utl_tab {
+    background: var(--main_white_bg);
+}
+
+.bg-light .following_follower_bx .bx .main_bx .content_bx .utl_tab .tab_button {
+    color: var(--main_black_color);
+}
+
+.bg-light .following_follower_bx .bx .main_bx .content_bx .utl_tab_contents .user_card {
+    background: var(--main_white_bg);
+}
+
+.bg-light .utl_send_msg .utl_send_msg_bx {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.bg-light .utl_send_msg .utl_send_msg_bx .bx {
+    background: var(--initial-shade-grey);
+}
+
+.bg-light .utl_send_msg .utl_send_msg_bx .bx textarea {
+    background: var(--main_white_bg);
+    color: var(--main_black_color);
+}
+
+.bg-light .utl_send_msg .utl_send_msg_bx .bx textarea {
+    background: var(--main_white_bg);
+    color: var(--main_black_color);
+}
+
+.bg-light .main_search_bar {
+    background: var(--main_color);
+}
+
+.bg-light .main_search_bar .search_area input {
+    background: var(--initial-shade-grey);
+}
+
+.bg-light .tenor_bg_bx .tenor_bx .bx {
+    background: var(--main_white_bg);
+}
+
+.bg-light .tenor_bg_bx .tenor_bx .bx .search_area {
+    background: var(--initial-shade-grey);
+    color: #fff;
+}
+
+.bg-light .tenor_bg_bx .tenor_bx .bx .search_area input {
+    color: #fff;
+}
+
+.bg-light .tenor_bg_bx .tenor_bx .bx .search_area input::placeholder {
+    color: #fff;
+}
+
+.bg-light .msg_area {
+    color: #000;
+}
+
+.bg-light .pc_tabs {
+    background: var(--main_white_bg);
+    color: var(--main_black_color);
+}
+
+.bg-light .pc_tabs button {
+    color: var(--main_black_color);
+}
+
+.bg-light .pc_tabs button.active {
+    color: var(--main_white_bg);
+}
+
+.bg-light .peffet_event {
+    background: var(--main_white_bg);
+    color: var(--main_black_color);
+    border: 1px solid var(--main_white_color);
+}
+
+.bg-light .peffet_event .group .each_group .group_sec_act_bx b {
+    background: var(--transparent_white);
+}
+
+.bg-light .box-s {
+    border: 1px solid var(--main_white_color);
+}
+
+.bg-light .peffet_event .group .group_navi {
+    background: var(--initial-shade-grey-darker);
+    color: var(--main_white_bg);
+}
+
+.bg-light .utl_event .form-group input {
+    border: 1px solid var(--initial-shade-grey);
+    background: var(--initial-shade-grey);
+    color: var(--main_white_bg);
+}
+
+.bg-light .utl_event .form-group input::placeholder {
+    color: var(--main_white_bg);
+}
+
+.bg-light .utl_event .drop_downs select {
+    background: var(--initial-shade-grey);
+}
+
+.bg-light .audio_bx {
+    background: #12121212;
+}
+
+.bg-light .utl_event_manager_container .utl_event_bx .utl_main_bx {
+    background: var(--main_color);
+    border: 1px solid var(--main_color);
+}
+
+.bg-light .side_nav .side_bx .side_bar {
+    background: var(--main_white_bg);
+    border: 1px solid var(--main_white_bg);
+}
+
+.bg-light .video_close,
+.img_close {
+    color: #fff;
+}
+
+.bg-light .preview_cont_close {
+    color: #000;
+    background: #dad3d394;
+}
+
+.bg-light .tab_navi {
+    background: #12121212;
+}
+
+.bg-light .gif_bx {
+    border: 1px solid #3f51b5;
+}
+
+.bg-light .universal_search .search_bx .bx_s {
+    background: var(--main_white_bg);
+    color: var(--main_black_color);
+}
+
+.bg-light .chats .sender_area_x {
+    background: var(--initial-shade-grey);
+    color: var(--main_white_color);
+}
+
+.bg-light .chats .line_holder.sender .main_bx_chat {
+    background: var(--initial-shade-grey);
+    color: var(--main_white_color);
+}
+
+.bg-light .chats .line_holder.sender .main_bx_chat.seen {
+    background: #3f51b5;
+}
+
+.bg-light .event_full_view .event_mv_bx .event_mv_conts {
+    background: var(--main_white_bg);
+}
+
+.bg-light .event_full_view .event_mv_bx .event_mv_conts .each_group .group_sec_act_bx {
+    color: var(--main_white_color);
+}
+
+.bg-light .event_full_view .event_mv_bx .event_mv_close {
+    color: #000;
+    background: #dad3d394;
+}
+
+.bg-light .peffet_hash_and_at_bx {
+    background: var(--main_white_bg);
+    color: var(--main_black_color);
+}
+
+.bg-light .loading_bx_h {
+    background: var(--main_white_bg);
+}

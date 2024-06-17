@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Oleo+Script+Swash+Caps&family=Poppins:wght@200&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Mochiy+Pop+One&family=Oleo+Script+Swash+Caps&family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Oswald&family=Poppins&family=Roboto+Mono&family=Silkscreen&display=swap');
+.roboto_fonts {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.lato_fonts {
+    font-family: 'Lato', sans-serif !important;
+}
+
+.mochiy_fonts {
+    font-family: 'Mochiy Pop One', sans-serif !important;
+}
+
+.oleo_fonts {
+    font-family: 'Oleo Script Swash Caps', cursive !important;
+}
+
+.kanit_fonts {
+    font-family: 'Kanit', sans-serif !important;
+}
+
+.oswald_fonts {
+    font-family: 'Oswald', sans-serif !important;
+}
+
+.poppins_fonts {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.roboto_mono_fonts {
+    font-family: 'Roboto Mono', monospace !important;
+}
+
+.silkscreen_fonts {
+    font-family: 'Silkscreen', cursive !important;
+}
+
+[data-font="roboto_fonts"] {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+[data-font="lato_fonts"] {
+    font-family: 'Lato', sans-serif !important;
+}
+
+[data-font="mochiy_fonts"] {
+    font-family: 'Mochiy Pop One', sans-serif !important;
+}
+
+[data-font="oleo_fonts"] {
+    font-family: 'Oleo Script Swash Caps', cursive !important;
+}
+
+[data-font="kanit_fonts"] {
+    font-family: 'Kanit', sans-serif !important;
+}
+
+[data-font="oswald_fonts"] {
+    font-family: 'Oswald', sans-serif !important;
+}
+
+[data-font="poppins_fonts"] {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+[data-font="roboto_mono_fonts"] {
+    font-family: 'Roboto Mono', monospace !important;
+}
+
+[data-font="silkscreen_fonts"] {
+    font-family: 'Silkscreen', cursive !important;
+}
+
+
+/* backgrounds */
+
+.pb_main {
+    background: #000 !important;
+    color: #fff;
+}
+
+[data-write_up-bg="pb_main"] {
+    background: #000 !important;
+    color: #fff;
+}
+
+.pb1 {
+    background: linear-gradient(255deg, #2196f3, #0b4e84) !important;
+}
+
+[data-write_up-bg="pb1"] {
+    background: linear-gradient(255deg, #2196f3, #0b4e84) !important;
+}
+
+.pb2 {
+    background: linear-gradient(255deg, #673ab7, #3f51b5) !important;
+}
+
+[data-write_up-bg="pb2"] {
+    background: linear-gradient(255deg, #673ab7, #3f51b5) !important;
+}
+
+.pb3 {
+    background: linear-gradient(255deg, #ffeb3b, #867a0e) !important;
+}
+
+[data-write_up-bg="pb3"] {
+    background: linear-gradient(255deg, #ffeb3b, #867a0e) !important;
+}
+
+.pb4 {
+    background: linear-gradient(255deg, limegreen, green) !important;
+}
+
+[data-write_up-bg="pb4"] {
+    background: linear-gradient(255deg, limegreen, green) !important;
+}
+
+.pb5 {
+    background: linear-gradient(255deg, deeppink, purple) !important;
+}
+
+[data-write_up-bg="pb5"] {
+    background: linear-gradient(255deg, deeppink, purple) !important;
+}
+
+.pb6 {
+    background: linear-gradient(255deg, royalblue, blue) !important;
+}
+
+[data-write_up-bg="pb6"] {
+    background: linear-gradient(255deg, royalblue, blue) !important;
+}
+
+.pb7 {
+    background: linear-gradient(255deg, #178ec8, #607d8b) !important;
+}
+
+[data-write_up-bg="pb7"] {
+    background: linear-gradient(255deg, #178ec8, #607d8b) !important;
+}
+
+.pb_one {
+    background: linear-gradient(45deg, rgb(76, 0, 255), #f5eeeecc) !important;
+}
+
+.pb_two {
+    background: linear-gradient(45deg, rgb(76, 0, 255), transparent), repeating-linear-gradient(45deg, rgb(183, 0, 255) 0%, rgb(183, 0, 255) 5%) !important;
+}
+
+.pb_three {
+    background: linear-gradient(45deg, rgb(76, 0, 255), transparent), repeating-linear-gradient( 45deg, rgb(183, 0, 255) 0%, rgb(183, 0, 255) 5%, transparent 5%, transparent 10%), rgb(216, 188, 255) repeating-linear-gradient( -45deg, rgba(183, 0, 255, 0.5) 0%, rgba(183, 0, 255, 0.5) 5%, transparent 5%, transparent 10%) !important;
+}
+
+.pb_four {
+    background: linear-gradient(45deg, rgb(76, 0, 255), transparent), repeating-linear-gradient( 45deg, rgb(183, 0, 255) 0%, rgb(183, 0, 255) 5%, transparent 5%, transparent 10%), rgb(216, 188, 255) repeating-linear-gradient( -45deg, rgba(183, 0, 255, 1) 0%, rgba(183, 0, 255, 1) 5%, transparent 5%, transparent 10%) !important;
+}
+
+.pb_five {
+    background: linear-gradient(45deg, rgb(76, 0, 255), transparent), repeating-linear-gradient( 45deg, rgb(183, 0, 255) 0%, rgb(183, 0, 255) 5%, transparent 5%, transparent 10%, rgb(183, 0, 255) 10%, rgb(183, 0, 255) 11%, transparent 11%, transparent 13%), rgb(216, 188, 255) repeating-linear-gradient( -45deg, rgba(183, 0, 255, 0.5) 0%, rgba(183, 0, 255, 0.5) 5%, transparent 5%, transparent 10%) !important;
+}
+
+.pb_six {
+    background: linear-gradient(45deg, rgb(76, 0, 255), transparent), repeating-linear-gradient( 45deg, rgba(183, 0, 255, .5) 0%, rgba(183, 0, 255, .5) 5%, transparent 5%, transparent 10%, rgba(183, 0, 255, .5) 10%, rgba(183, 0, 255, .5) 11%, transparent 11%, transparent 13%), rgb(216, 188, 255) repeating-linear-gradient( -45deg, rgba(183, 0, 255, 0.5) 0%, rgba(183, 0, 255, 0.5) 5%, transparent 5%, transparent 10%) !important;
+}
+
+.pb_seven {
+    background: linear-gradient(45deg, rgb(76, 0, 255), transparent), repeating-linear-gradient( 45deg, rgba(183, 0, 255, .5) 0%, rgba(183, 0, 255, .5) 5%, transparent 5%, transparent 10%, rgba(183, 0, 255, .5) 10%, rgba(183, 0, 255, .5) 11%, transparent 11%, transparent 13%), rgb(216, 188, 255) repeating-linear-gradient( -45deg, rgba(183, 0, 255, 0.5) 0px, rgba(183, 0, 255, 0.5) 30px, transparent 30px, transparent 45px) !important;
+}
+
+.pb_eight {
+    background: linear-gradient(45deg, rgb(76, 0, 255), transparent), repeating-linear-gradient(45deg, rgb(183, 0, 255) 0%, rgb(183, 0, 255) 5%) !important;
+}
+
+.pb_nine {
+    background: linear-gradient(45deg, #607d8b, transparent), repeating-linear-gradient( 45deg, #9c27b0 0%, #9c27b0 5%, transparent 5%, transparent 10%), rgb(216, 188, 255) repeating-linear-gradient( -45deg, #9c27b0 0%, #9c27b0 5%, transparent 5%, transparent 10%) !important;
+}
+
+
+/* typing bg */
+
+.type_pb_main {
+    background: #000 !important;
+}
+
+[data-typing-bg="type_pb_main"] {
+    background: #000 !important;
+}
+
+.type_pb1 {
+    background: linear-gradient(255deg, #2196f3, #0b4e84) !important;
+}
+
+[data-typing-bg="type_pb1"] {
+    background: linear-gradient(255deg, #2196f3, #0b4e84) !important;
+}
+
+.type_pb2 {
+    background: linear-gradient(255deg, #673ab7, #3f51b5) !important;
+}
+
+[data-typing-bg="type_pb2"] {
+    background: linear-gradient(255deg, #673ab7, #3f51b5) !important;
+}
+
+.type_pb3 {
+    background: linear-gradient(255deg, #ffeb3b, #867a0e) !important;
+}
+
+[data-typing-bg="type_pb3"] {
+    background: linear-gradient(255deg, #ffeb3b, #867a0e) !important;
+}
+
+.type_pb4 {
+    background: linear-gradient(255deg, limegreen, green) !important;
+}
+
+[data-typing-bg="type_pb4"] {
+    background: linear-gradient(255deg, limegreen, green) !important;
+}
+
+.type_pb5 {
+    background: linear-gradient(255deg, deeppink, purple) !important;
+}
+
+[data-typing-bg="type_pb5"] {
+    background: linear-gradient(255deg, deeppink, purple) !important;
+}
+
+.type_pb6 {
+    background: linear-gradient(255deg, royalblue, blue) !important;
+}
+
+[data-typing-bg="type_pb6"] {
+    background: linear-gradient(255deg, royalblue, blue) !important;
+}
+
+.type_pb7 {
+    background: linear-gradient(255deg, #178ec8, #607d8b) !important;
+}
+
+[data-typing-bg="type_pb7"] {
+    background: linear-gradient(255deg, #178ec8, #607d8b) !important;
+}
+
+.type_pb_one {
+    background: linear-gradient(45deg, rgb(76, 0, 255), #f5eeeecc) !important;
+}
+
+[data-typing-bg="type_pb_one"] {
+    background: linear-gradient(45deg, rgb(76, 0, 255), #f5eeeecc) !important;
+}
+
+[data-write_up-bg="pb_one"] {
+    background: linear-gradient(45deg, rgb(76, 0, 255), #f5eeeecc) !important;
+}
+
+.type_pb_two {
+    background: linear-gradient(45deg, rgb(76, 0, 255), transparent), repeating-linear-gradient(45deg, rgb(183, 0, 255) 0%, rgb(183, 0, 255) 5%) !important;
+}
+
+[data-typing-bg="type_pb_two"] {
+    background: linear-gradient(45deg, rgb(76, 0, 255), transparent), repeating-linear-gradient(45deg, rgb(183, 0, 255) 0%, rgb(183, 0, 255) 5%) !important;
+}
+
+[data-write_up-bg="pb_two"] {
+    background: linear-gradient(45deg, rgb(76, 0, 255), transparent), repeating-linear-gradient(45deg, rgb(183, 0, 255) 0%, rgb(183, 0, 255) 5%) !important;
+}
+
+.type_pb_three {
+    background: linear-gradient(45deg, rgb(76, 0, 255), transparent), repeating-linear-gradient( 45deg, rgb(183, 0, 255) 0%, rgb(183, 0, 255) 5%, transparent 5%, transparent 10%), rgb(216, 188, 255) repeating-linear-gradient( -45deg, rgba(183, 0, 255, 0.5) 0%, rgba(183, 0, 255, 0.5) 5%, transparent 5%, transparent 10%) !important;
+}
+
+[data-typing-bg="type_pb_three"] {
+    background: linear-gradient(45deg, rgb(76, 0, 255), transparent), repeating-linear-gradient( 45deg, rgb(183, 0, 255) 0%, rgb(183, 0, 255) 5%, transparent 5%, transparent 10%), rgb(216, 188, 255) repeating-linear-gradient( -45deg, rgba(183, 0, 255, 0.5) 0%, rgba(183, 0, 255, 0.5) 5%, transparent 5%, transparent 10%) !important;
+}
+
+[data-write_up-bg="pb_three"] {
+    background: linear-gradient(45deg, rgb(76, 0, 255), transparent), repeating-linear-gradient( 45deg, rgb(183, 0, 255) 0%, rgb(183, 0, 255) 5%, transparent 5%, transparent 10%), rgb(216, 188, 255) repeating-linear-gradient( -45deg, rgba(183, 0, 255, 0.5) 0%, rgba(183, 0, 255, 0.5) 5%, transparent 5%, transparent 10%) !important;
+}
+
+.type_pb_four {
+    background: linear-gradient(45deg, rgb(76, 0, 255), transparent), repeating-linear-gradient( 45deg, rgb(183, 0, 255) 0%, rgb(183, 0, 255) 5%, transparent 5%, transparent 10%), rgb(216, 188, 255) repeating-linear-gradient( -45deg, rgba(183, 0, 255, 1) 0%, rgba(183, 0, 255, 1) 5%, transparent 5%, transparent 10%);
+}
+
+[data-typing-bg="type_pb_four"] {
+    background: linear-gradient(45deg, rgb(76, 0, 255), transparent), repeating-linear-gradient( 45deg, rgb(183, 0, 255) 0%, rgb(183, 0, 255) 5%, transparent 5%, transparent 10%), rgb(216, 188, 255) repeating-linear-gradient( -45deg, rgba(183, 0, 255, 1) 0%, rgba(183, 0, 255, 1) 5%, transparent 5%, transparent 10%) !important;
+}
+
+[data-write_up-bg="pb_four"] {
+    background: linear-gradient(45deg, rgb(76, 0, 255), transparent), repeating-linear-gradient( 45deg, rgb(183, 0, 255) 0%, rgb(183, 0, 255) 5%, transparent 5%, transparent 10%), rgb(216, 188, 255) repeating-linear-gradient( -45deg, rgba(183, 0, 255, 1) 0%, rgba(183, 0, 255, 1) 5%, transparent 5%, transparent 10%) !important;
+}
+
+.type_pb_five {
+    background: linear-gradient(45deg, rgb(76, 0, 255), transparent), repeating-linear-gradient( 45deg, rgb(183, 0, 255) 0%, rgb(183, 0, 255) 5%, transparent 5%, transparent 10%, rgb(183, 0, 255) 10%, rgb(183, 0, 255) 11%, transparent 11%, transparent 13%), rgb(216, 188, 255) repeating-linear-gradient( -45deg, rgba(183, 0, 255, 0.5) 0%, rgba(183, 0, 255, 0.5) 5%, transparent 5%, transparent 10%) !important;
+}
+
+[data-typing-bg="type_pb_five"] {
+    background: linear-gradient(45deg, rgb(76, 0, 255), transparent), repeating-linear-gradient( 45deg, rgb(183, 0, 255) 0%, rgb(183, 0, 255) 5%, transparent 5%, transparent 10%, rgb(183, 0, 255) 10%, rgb(183, 0, 255) 11%, transparent 11%, transparent 13%), rgb(216, 188, 255) repeating-linear-gradient( -45deg, rgba(183, 0, 255, 0.5) 0%, rgba(183, 0, 255, 0.5) 5%, transparent 5%, transparent 10%) !important;
+}
+
+[data-write_up-bg="pb_five"] {
+    background: linear-gradient(45deg, rgb(76, 0, 255), transparent), repeating-linear-gradient( 45deg, rgb(183, 0, 255) 0%, rgb(183, 0, 255) 5%, transparent 5%, transparent 10%, rgb(183, 0, 255) 10%, rgb(183, 0, 255) 11%, transparent 11%, transparent 13%), rgb(216, 188, 255) repeating-linear-gradient( -45deg, rgba(183, 0, 255, 0.5) 0%, rgba(183, 0, 255, 0.5) 5%, transparent 5%, transparent 10%) !important;
+}
+
+.type_pb_six {
+    background: linear-gradient(45deg, rgb(76, 0, 255), transparent), repeating-linear-gradient( 45deg, rgba(183, 0, 255, .5) 0%, rgba(183, 0, 255, .5) 5%, transparent 5%, transparent 10%, rgba(183, 0, 255, .5) 10%, rgba(183, 0, 255, .5) 11%, transparent 11%, transparent 13%), rgb(216, 188, 255) repeating-linear-gradient( -45deg, rgba(183, 0, 255, 0.5) 0%, rgba(183, 0, 255, 0.5) 5%, transparent 5%, transparent 10%) !important;
+}
+
+[data-typing-bg="type_pb_six"] {
+    background: linear-gradient(45deg, rgb(76, 0, 255), transparent), repeating-linear-gradient( 45deg, rgba(183, 0, 255, .5) 0%, rgba(183, 0, 255, .5) 5%, transparent 5%, transparent 10%, rgba(183, 0, 255, .5) 10%, rgba(183, 0, 255, .5) 11%, transparent 11%, transparent 13%), rgb(216, 188, 255) repeating-linear-gradient( -45deg, rgba(183, 0, 255, 0.5) 0%, rgba(183, 0, 255, 0.5) 5%, transparent 5%, transparent 10%) !important;
+}
+
+[data-write_up-bg="pb_six"] {
+    background: linear-gradient(45deg, rgb(76, 0, 255), transparent), repeating-linear-gradient( 45deg, rgba(183, 0, 255, .5) 0%, rgba(183, 0, 255, .5) 5%, transparent 5%, transparent 10%, rgba(183, 0, 255, .5) 10%, rgba(183, 0, 255, .5) 11%, transparent 11%, transparent 13%), rgb(216, 188, 255) repeating-linear-gradient( -45deg, rgba(183, 0, 255, 0.5) 0%, rgba(183, 0, 255, 0.5) 5%, transparent 5%, transparent 10%) !important;
+}
+
+.type_pb_seven {
+    background: linear-gradient(45deg, rgb(76, 0, 255), transparent), repeating-linear-gradient( 45deg, rgba(183, 0, 255, .5) 0%, rgba(183, 0, 255, .5) 5%, transparent 5%, transparent 10%, rgba(183, 0, 255, .5) 10%, rgba(183, 0, 255, .5) 11%, transparent 11%, transparent 13%), rgb(216, 188, 255) repeating-linear-gradient( -45deg, rgba(183, 0, 255, 0.5) 0px, rgba(183, 0, 255, 0.5) 30px, transparent 30px, transparent 45px) !important;
+}
+
+[data-typing-bg="type_pb_seven"] {
+    background: linear-gradient(45deg, rgb(76, 0, 255), transparent), repeating-linear-gradient( 45deg, rgba(183, 0, 255, .5) 0%, rgba(183, 0, 255, .5) 5%, transparent 5%, transparent 10%, rgba(183, 0, 255, .5) 10%, rgba(183, 0, 255, .5) 11%, transparent 11%, transparent 13%), rgb(216, 188, 255) repeating-linear-gradient( -45deg, rgba(183, 0, 255, 0.5) 0px, rgba(183, 0, 255, 0.5) 30px, transparent 30px, transparent 45px) !important;
+}
+
+[data-write_up-bg="pb_seven"] {
+    background: linear-gradient(45deg, rgb(76, 0, 255), transparent), repeating-linear-gradient( 45deg, rgba(183, 0, 255, .5) 0%, rgba(183, 0, 255, .5) 5%, transparent 5%, transparent 10%, rgba(183, 0, 255, .5) 10%, rgba(183, 0, 255, .5) 11%, transparent 11%, transparent 13%), rgb(216, 188, 255) repeating-linear-gradient( -45deg, rgba(183, 0, 255, 0.5) 0px, rgba(183, 0, 255, 0.5) 30px, transparent 30px, transparent 45px) !important;
+}
+
+.type_pb_eight {
+    background: linear-gradient(45deg, rgb(76, 0, 255), transparent), repeating-linear-gradient(45deg, rgb(183, 0, 255) 0%, rgb(183, 0, 255) 5%) !important;
+}
+
+[data-typing-bg="type_pb_eight"] {
+    background: linear-gradient(45deg, rgb(76, 0, 255), transparent), repeating-linear-gradient(45deg, rgb(183, 0, 255) 0%, rgb(183, 0, 255) 5%) !important;
+}
+
+[data-write_up-bg="pb_eight"] {
+    background: linear-gradient(45deg, rgb(76, 0, 255), transparent), repeating-linear-gradient(45deg, rgb(183, 0, 255) 0%, rgb(183, 0, 255) 5%) !important;
+}
+
+.type_pb_nine {
+    background: linear-gradient(45deg, #607d8b, transparent), repeating-linear-gradient( 45deg, #9c27b0 0%, #9c27b0 5%, transparent 5%, transparent 10%), rgb(216, 188, 255) repeating-linear-gradient( -45deg, #9c27b0 0%, #9c27b0 5%, transparent 5%, transparent 10%) !important;
+}
+
+[data-typing-bg="type_pb_nine"] {
+    background: linear-gradient(45deg, #607d8b, transparent), repeating-linear-gradient( 45deg, #9c27b0 0%, #9c27b0 5%, transparent 5%, transparent 10%), rgb(216, 188, 255) repeating-linear-gradient( -45deg, #9c27b0 0%, #9c27b0 5%, transparent 5%, transparent 10%) !important;
+}
+
+[data-write_up-bg="pb_nine"] {
+    background: linear-gradient(45deg, #607d8b, transparent), repeating-linear-gradient( 45deg, #9c27b0 0%, #9c27b0 5%, transparent 5%, transparent 10%), rgb(216, 188, 255) repeating-linear-gradient( -45deg, #9c27b0 0%, #9c27b0 5%, transparent 5%, transparent 10%) !important;
+}

@@ -1,0 +1,165 @@
+{
+    "name": "Peffet",
+    "short_name": "Peffet",
+    "lang": "en",
+    "start_url": "./home",
+    "display": "standalone",
+    "background_color": "#1e252f",
+    "theme_color": "#1e252f",
+    "description": "Stay picture Peffet..",
+    "share_target": {
+        "action": "./create_post",
+        "params": {
+            "title": "title",
+            "text": "text",
+            "url": "url"
+        }
+    },
+    "icons": [{
+            "sizes": "60x60",
+            "src": "peffet_icons/60.png",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "sizes": "40x40",
+            "src": "peffet_icons/40.png",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "sizes": "60x60",
+            "src": "peffet_icons/60.png",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "sizes": "57x57",
+            "src": "peffet_icons/57.png",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "sizes": "29x29",
+            "src": "peffet_icons/29.png",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "sizes": "57x57",
+            "src": "peffet_icons/57.png",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "sizes": "20x20",
+            "src": "peffet_icons/20.png",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "sizes": "1024x1024",
+            "src": "peffet_icons/1024.png",
+            "type": "image/png"
+        },
+        {
+            "sizes": "72x72",
+            "src": "peffet_icons/72.png",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "sizes": "76x76",
+            "src": "peffet_icons/76.png",
+            "type": "image/png",
+            "purpose": "any"
+        },
+
+        {
+            "sizes": "76x76",
+            "src": "peffet_icons/76.png",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "sizes": "50x50",
+            "src": "peffet_icons/50.png",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "sizes": "20x20",
+            "src": "peffet_icons/20.png",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "sizes": "1024x1024",
+            "src": "peffet_icons/1024.png",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "sizes": "128x128",
+            "src": "peffet_icons/128.png",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "sizes": "256x256",
+            "src": "peffet_icons/256.png",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "sizes": "32x32",
+            "src": "peffet_icons/32.png",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "sizes": "512x512",
+            "src": "peffet_icons/512.png",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "sizes": "16x16",
+            "src": "peffet_icons/16.png",
+            "type": "image/png",
+            "purpose": "any"
+        }
+    ],
+    "shortcuts": [{
+            "name": "Explore",
+            "short_name": "Explore",
+            "description": "Explore ideas on peffet",
+            "url": "./explore",
+            "icons": [{ "src": "peffet_icons/short1.png", "sizes": "192x192" }]
+        },
+        {
+            "name": "Messages",
+            "short_name": "Messages",
+            "description": "Chats with friends on peffet",
+            "url": "./xchat",
+            "icons": [{ "src": "peffet_icons/short3.png", "sizes": "192x192" }]
+        }
+    ],
+    "screenshots": [{
+        "sizes": "850x1732",
+        "src": "peffet_icons/shot1.png",
+        "type": "image/png"
+    }, {
+        "sizes": "850x1612",
+        "src": "peffet_icons/shot2.png",
+        "type": "image/png"
+    }, {
+        "sizes": "850x1612",
+        "src": "peffet_icons/shot3.png",
+        "type": "image/png"
+    }, {
+        "sizes": "850x1612",
+        "src": "peffet_icons/shot4.png",
+        "type": "image/png"
+    }]
+}

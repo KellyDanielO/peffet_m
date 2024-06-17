@@ -1,0 +1,342 @@
+.pc_comp {
+    display: none !important;
+}
+
+.bottom_nav {
+    display: none !important;
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 90vh;
+    background: #121212;
+    padding-top: 10px;
+}
+
+.bx {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    background: #121212;
+}
+
+.bx .left {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 30%;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    padding-left: 10px;
+    margin-top: 3%;
+}
+
+.bx .left>* {
+    pad: 10px;
+    margin-left: 10px;
+}
+
+.bx .left .navi {
+    width: 37%;
+    height: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    font-size: caLc(.6em + 1vw);
+}
+
+.bx .left .navi i {
+    margin-top: 4%;
+}
+
+.bx .left .list_box {
+    height: 45vh;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-direction: column;
+    font-size: caLc(.7em + 1vw);
+    transition: 0.5s ease-in-out;
+    margin-top: 1em;
+}
+
+.bx .left .list_box .list_item {
+    padding: 5px 10px;
+    border-radius: 25px;
+    width: fit-content;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.bx .left .list_box .list_item.active {
+    background: limegreen;
+}
+
+.bx .right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 70%;
+    height: 90vh;
+    overflow: hidden;
+}
+
+.bx .right .bx {
+    width: 100%;
+    height: 90vh;
+    position: relative;
+}
+
+.bx .right .boxes {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 90vh;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+    pointer-events: none;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.bx .right .boxes.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.edit_box {
+    margin-top: 2em;
+    width: 100%;
+    height: 70vh;
+    overflow: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.avatar_area img {
+    width: 10em;
+    height: 10em;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.avatar_area label {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: calc(.3em + 1vw);
+    color: lawngreen;
+    cursor: pointer;
+}
+
+.form_area_edit {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 50vh;
+    max-width: 50%;
+}
+
+.form_area_edit .sec_each {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form_area_edit .sec_each input,
+.form_area_edit .sec_each textarea {
+    border: none;
+    outline: none;
+    background: hsl(222deg 16% 12%);
+    padding: 10px 15px;
+    width: 100%;
+    border-radius: 10px;
+    resize: none;
+}
+
+.form_area_edit button {
+    border: none;
+    outline: none;
+    background: limegreen;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5%;
+}
+
+.avatar_area {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    max-width: 50%;
+}
+
+.back_btn {
+    display: none;
+}
+
+.edit_password {
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 12vh;
+}
+
+.edit_password button {
+    border: none;
+    outline: none;
+    background: limegreen;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5%;
+}
+
+.bx .left .navi {
+    width: 49%;
+    height: 2em;
+    display: unset;
+    font-size: caLc(1.5em + 1vw);
+}
+
+.bx .left .navi b {
+    font-size: caLc(.5em + 1vw);
+}
+
+.acc_info_bx {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.acc_info_bx .info_box {
+    width: 100%;
+    height: 50vh;
+    /* display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr; */
+    /* grid-gap: 10px; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.acc_info_bx .info_box>* {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    width: 50%;
+}
+
+.acc_info_bx .info_box strong {
+    color: lawngreen;
+    font-family: Arial;
+}
+
+@media (min-width: 0) and (max-width: 800px) {
+    .acc_info_bx .info_box {
+        flex-direction: column;
+        flex-wrap: unset;
+    }
+    .acc_info_bx .info_box>* {
+        width: 90%;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+    .bx .left {
+        width: 100%;
+        overflow: hidden;
+        z-index: 5;
+    }
+    .bx .right {
+        width: 0;
+        overflow: hidden;
+        transition: .5s ease-in-out;
+    }
+    .bx .right.active {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+        background: #121212;
+        width: 100%;
+        z-index: 10;
+    }
+    .main {
+        height: 100vh;
+        width: 100%;
+    }
+    .edit_box {
+        flex-direction: column;
+        height: 90vh;
+    }
+    .avatar_area {
+        max-width: 100%;
+        font-size: calc(1.5em + 1vw);
+    }
+    .avatar_area img {
+        width: 4em;
+        height: 4em;
+    }
+    .form_area_edit {
+        height: 50vh;
+        max-width: 90%;
+    }
+    .bx .right .boxes {
+        font-size: 1.1em;
+    }
+    .form_area_edit {
+        height: 67vh;
+        max-width: 90%;
+        justify-content: unset;
+        margin-top: 3em;
+        width: 95%;
+    }
+    .form_area_edit>* {
+        margin-bottom: 1em;
+    }
+    .results {
+        font-size: .6em;
+    }
+    .back_btn {
+        display: unset;
+    }
+    .back_btn {
+        display: unset;
+        font-size: 1.9em;
+        position: absolute;
+        left: 2%;
+        top: .5%;
+        z-index: 30;
+    }
+    .bx .left .navi {
+        width: 49%;
+        height: 2em;
+        display: unset;
+        font-size: caLc(1.7em + 1vw);
+    }
+    .bx .left .navi b {
+        font-size: caLc(.9em + 1vw);
+    }
+}

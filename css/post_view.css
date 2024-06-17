@@ -1,0 +1,33 @@
+.post_view_page {
+    /* height: 100vh; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    /* pointer-events: none; */
+}
+
+.post_view_page>* {
+    /* width: 98vw; */
+    margin: 0 auto;
+}
+
+.peffet_portrait {
+    width: 95%;
+}
+
+.peffet_post {
+    width: 95%;
+}
+
+@media (min-width: 992px) and (max-width: 50440px) {
+    .peffet_portrait {
+        width: 63%;
+        height: 80vh !important;
+    }
+    .peffet_post {
+        width: 70%;
+    }
+}
